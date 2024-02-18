@@ -1,0 +1,222 @@
+.header{
+    height:auto;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header1{
+    text-align: center;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1;
+    position: relative;
+}
+.header1:hover{
+    transform: scale(0.9);
+}
+
+.header1 a{
+    text-decoration: none;
+    color:white;
+}
+.header1 a:hover{
+    color:orangered;
+}
+
+.symbol{
+    color: yellow;
+    position: relative;
+    animation: icon 1s linear 0s infinite;
+    transform: rotateY(45deg);
+}
+@keyframes icon{
+    from{transform: rotateY(45deg);}
+    to{transform: rotateY(225deg);}
+}
+.symbol:hover{
+    color: white;
+}
+
+.about{
+    box-shadow: black 0px 0px 15px 0px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1;
+}
+.about:hover{
+    transform: scale(0.8);
+}
+.para1{
+    animation: para1 2s ease 0s 1;
+    position: relative; 
+}
+@keyframes para1 {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.para2{
+    animation: para2 2.3s ease 0s 1;
+    position: relative; 
+}
+@keyframes para2 {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.para3{
+    animation: para3 2.6s ease 0s 1;
+    position: relative; 
+}
+@keyframes para3 {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.para4{
+    animation: para4 2.9s ease 0s 1;
+    position: relative; 
+}
+@keyframes para4 {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.para5{
+    animation: para5 3.2s ease 0s 1;
+    position: relative; 
+}
+@keyframes para5 {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+
+.quali{
+    animation: quali 2s ease 1.5s 1;
+    position: relative; 
+}
+@keyframes quali {
+    0%{
+        left:-900px
+    }
+    100%{
+        left:0px;
+    }
+}
+
+.quali h2{
+    color:orangered;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1;
+    box-shadow: black 0px 0px 10px 0px;
+}
+.quali h2:hover{
+    color:orange;
+    transform: scale(0.8);
+}
+
+.skills ul{
+    border-radius: 20px;
+     font-size: 1.8rem;
+     box-shadow: black 0px 0px 10px 0px;
+     animation: skills 2s ease 2s 1;
+    position: relative; 
+}
+.skills ul li:hover{
+     color:orangered;
+}
+
+@keyframes skills {
+    0%{
+        right:-700px
+    }
+    100%{
+        right:0px;
+    }
+}
+.mainimg{
+    padding-bottom: 20px;
+}
+.image1{
+    box-shadow: black 0px 0px 10px 0px;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    .image{
+        width:410px;
+        height:300px;
+        margin-top: 20px;
+    }
+    .image1{
+        width:410px;
+        margin-bottom: 50px;
+    }
+    .quali h2{
+        margin-top: 50px;
+    }
+    .about{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .icons i{
+        margin-top: 20px;
+    }
+}
+
+/* @media only screen and (min-width:430px) and (max-width:932px){
+    .header1{
+        margin-left: 20px;
+    }
+    .size{
+        height: 900px;
+    }
+    .image{
+        height:1500px;
+    }
+    #quali1{
+        margin-left: -80px;
+    }
+    #quali2{
+        margin-left: 80px;
+    }
+    #quali3{
+        margin-left: 60px;
+    }
+    #quali4{
+        margin-left: 700px;
+        margin-top: -282px;
+    }
+    .class{
+        margin-top: 45px;
+    }
+    .image1{
+        height: 400px;
+        width:350px;
+    }
+} */
