@@ -1,0 +1,35 @@
+.header{
+    height:70px;
+    z-index: 1;
+}
+.header1{
+    text-align: center;
+}
+.header1 a{
+    text-decoration: none;
+    color:white;
+}
+.header1 a:hover{
+    color:orangered;
+}
+
+.symbol{
+    color: yellow;
+    position: relative;
+    animation: icon 1s linear 1s infinite;
+    transform: rotateY(45deg);
+}
+@keyframes icon{
+    from{transform: rotateY(45deg);}
+    to{transform: rotateY(225deg);}
+}
+.symbol:hover{
+    color: white;
+}
+
+.aboutme{
+    color:grey;
+    font-style: bold;
+    line-height: 10px;
+    font-size: 1.1rem;
+}

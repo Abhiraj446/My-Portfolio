@@ -1,0 +1,151 @@
+.header{
+    height:70px;
+    z-index: 1;
+}
+.header1{
+    text-align: center;
+}
+.header1 a{
+    text-decoration: none;
+    color:white;
+}
+.header1 a:hover{
+    color:orangered;
+}
+
+.symbol{
+    color: yellow;
+    position: relative;
+    animation: icon 1s linear 1s infinite;
+    transform: rotateY(45deg);
+}
+@keyframes icon{
+    from{transform: rotateY(45deg);}
+    to{transform: rotateY(225deg);}
+}
+.symbol:hover{
+    color: white;
+}
+
+.hello{
+    animation: animi 3s ease 1s 1;
+    position: relative; 
+}
+@keyframes animi {
+    0%{
+        top:-200px
+    }
+    100%{
+        top:0px;
+    }
+}
+
+.size{
+    font-size: 4.9rem;
+    animation: name 3s ease 1s 1;
+    position: relative;
+}
+@keyframes name{
+    0%{
+        left:-500px;
+    }
+    100%{
+        left:0px;
+    }
+}
+.front{
+    animation: front 3s ease 1s 1;
+    position: relative;
+}
+@keyframes front {
+    0%{
+        right:-250px;
+    }
+    100%{
+        right:0px;
+    }
+}
+.span{
+    position: relative;
+    transition:all;
+    transition-duration: 2s;
+    transition-delay: 1;
+    transition-timing-function: ease-in-out;
+}
+.span:hover{
+    transform: scale(0.8);
+}
+
+.image{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1;
+    box-shadow: black 5px 4px 15px 5px;
+}
+.image:hover{
+    transform:scale(0.8);
+}
+
+.button{
+    padding: 15px 50px;
+    background-color: white;
+    color: black;
+}
+.button:hover{
+    background-color: orangered;
+    color: white;
+}
+.port{
+    padding: 15px 50px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.port:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    height:250px;
+}
+
+.ficons{
+    transition: all 1s ease-in-out 1;
+}
+.ficons:hover{
+    color:orangered;
+    transform: scale(0.8);
+}
+
+.email{
+    text-align: center;
+}
+.email i{
+    color:orangered
+}
+.email i:hover{
+    color:orange;
+}
+.email a{
+    text-decoration: none;
+    color:white;
+}
+.what{
+    text-align: center;
+}
+.what i{
+    color: yellowgreen;
+}
+.what i:hover{
+    color:lightgreen;
+}
+.what a{
+    text-decoration: none;
+    color:white;
+}
